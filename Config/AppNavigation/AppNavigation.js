@@ -12,6 +12,7 @@ import ConstructionLoan from '../../Screens/ConstructionLoan';
 import BusinessLoan from '../../Screens/BusinessLoan';
 import EducationLoan from '../../Screens/EducationLoan';
 import WeddingLoan from '../../Screens/WeddingLoan';
+import UserInformation from '../../Screens/BusinessLoan';
 export default function AppNavigation() {
 
   const Stack = createStackNavigator();
@@ -28,6 +29,7 @@ export default function AppNavigation() {
         <Stack.Screen name="BusinessLoan" options={{headerShown:false}} component={BusinessLoan} />
         <Stack.Screen name="EducationLoan" options={{headerShown:false}} component={EducationLoan} />
         <Stack.Screen name="WeddingLoan" options={{headerShown:false}} component={WeddingLoan} />
+        <Stack.Screen name="UserInformation" options={{headerShown:false}} component={UserInformation} />
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="About" component={About} />
       </Stack.Navigator>
