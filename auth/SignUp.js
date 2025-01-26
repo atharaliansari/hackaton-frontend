@@ -259,9 +259,7 @@ export default function SignUp() {
                 </View>
             </View>
 
-            <TouchableOpacity onPress={() => navigation.navigate('LoanCategory')}>
-                <Text style={Styles.loginLink}>Loan Category</Text>
-            </TouchableOpacity>
+            
         </View >
     );
 }
